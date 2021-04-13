@@ -104,7 +104,7 @@ HELP_STRINGS = """
 
 yone_IMG = "https://telegra.ph/file/f1bf53a50ad9fc4039342.jpg"
 
-DONATE_STRING = """ No need of donation please share the bot"""
+DONATE_STRING = """ No need of donation please share the bot and you can help by developing too"""
 
 IMPORTED = {}
 MIGRATEABLE = []
