@@ -80,9 +80,7 @@ def resize_image(image):
 
 
 __help__ = """	
- *QR code:*	
-  • `/tm <reply to media>`*:* Get Telegraph Link Of Replied Media	
-  • `/txt <reply to text>`*:* Get Telegraph Link of Replied Text	
+ • `/tm <reply to media>`*:* Get Telegraph Link Of Replied Media	
 """	
 
 __mod_name__ = "Telegraph"
