@@ -11,15 +11,15 @@ from YoneRobot.__main__ import DATA_IMPORT
 from YoneRobot.modules.helper_funcs.chat_status import user_admin
 from YoneRobot.modules.helper_funcs.alternate import typing_action
 
-# from YoneRobot.modules.rules import get_rules
+from YoneRobot.modules.rules import get_rules
 import YoneRobot.modules.sql.rules_sql as rulessql
 
-# from YoneRobot.modules.sql import warns_sql as warnssql
+import YoneRobot.modules.sql import warns_sql as warnssql
 import YoneRobot.modules.sql.blacklist_sql as blacklistsql
-from YoneRobot.modules.sql import disable_sql as disabledsql
+import YoneRobot.modules.sql import disable_sql as disabledsql
 
-# from YoneRobot.modules.sql import cust_filters_sql as filtersql
-# import YoneRobot.modules.sql.welcome_sql as welcsql
+from YoneRobot.modules.sql import cust_filters_sql as filtersql
+from YoneRobot import YoneRobot.modules.sql.welcome_sql as welcsql
 import YoneRobot.modules.sql.locks_sql as locksql
 from YoneRobot.modules.connection import connected
 
