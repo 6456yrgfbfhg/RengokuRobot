@@ -14,7 +14,7 @@ from YoneRobot.modules.helper_funcs.alternate import typing_action
 from YoneRobot.modules.rules import get_rules
 import YoneRobot.modules.sql.rules_sql as rulessql
 
-import YoneRobot.modules.sql import warns_sql as warnssql
+from YoneRobot.modules.sql import warns_sql as warnssql
 from YoneRobot.modules.sql.blacklist_sql as blacklistsql
 import YoneRobot.modules.sql import disable_sql as disabledsql
 
