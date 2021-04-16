@@ -19,7 +19,7 @@ import YoneRobot.modules.sql.blacklist_sql as blacklistsql
 from YoneRobot.modules.sql import disable_sql as disabledsql
 
 from YoneRobot.modules.sql import cust_filters_sql as filtersql
-from YoneRobot import YoneRobot.modules.sql.welcome_sql as welcsql
+import YoneRobot.modules.sql.welcome_sql as welcsql
 import YoneRobot.modules.sql.locks_sql as locksql
 from YoneRobot.modules.connection import connected
 
