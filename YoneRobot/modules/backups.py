@@ -16,7 +16,7 @@ import YoneRobot.modules.sql.rules_sql as rulessql
 
 from YoneRobot.modules.sql import warns_sql as warnssql
 import YoneRobot.modules.sql.blacklist_sql as blacklistsql
-import YoneRobot.modules.sql import disable_sql as disabledsql
+from YoneRobot.modules.sql import disable_sql as disabledsql
 
 from YoneRobot.modules.sql import cust_filters_sql as filtersql
 from YoneRobot import YoneRobot.modules.sql.welcome_sql as welcsql
