@@ -1,1 +1,1 @@
-worker: python3 -m YoneRobot
+web: python3 -m YoneRobot
