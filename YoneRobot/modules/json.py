@@ -1,7 +1,7 @@
 import io
-from YoneRoBot.events import register
-from YoneRoBot import telethn as borg
-from YoneRoBot import telethn as tbot
+from YoneRobot.events import register
+from YoneRobot import telethn as borg
+from YoneRobot import telethn as tbot
 from telethon import types
 from telethon import events
 from telethon.tl import functions, types
