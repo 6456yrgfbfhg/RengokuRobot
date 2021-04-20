@@ -647,7 +647,7 @@ Group admins/group owners do not need these commands.
 `⚠️ Read from top`
 Visit @{SUPPORT_CHAT} for more information.
 """
-
+__mode_name__ = "Disasters
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "adddemon"), addsupport)
 TIGER_HANDLER = CommandHandler(("addtiger"), addtiger)
