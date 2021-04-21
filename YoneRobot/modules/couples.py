@@ -28,7 +28,7 @@ async def couple(_, message):
     if message.chat.type == "private":
         await message.reply_text("This command only works in groups.")
         return
-    try:
+
         chat_id = message.chat.id
         is_selected = await get_couple(chat_id, today)
         if not is_selected:
@@ -71,6 +71,3 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
                 message.chat.id,
                 text=couple_selection_message
             )
-     except Exception as e:
-         print(e)
-         await message.reply_text(e)
