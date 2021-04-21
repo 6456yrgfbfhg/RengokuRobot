@@ -6,6 +6,7 @@ from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
 from YoneRobot.modules.helper_funcs import telethn as tbot
+from YoneRobot.events import register
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="DaisyX")
