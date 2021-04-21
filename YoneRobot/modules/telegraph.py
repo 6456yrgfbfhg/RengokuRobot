@@ -5,7 +5,7 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
-from YoneRobot.modules.helper_funcs.telethn import tbot as borg
+from YoneRobot import tbot as borg
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="DaisyX")
