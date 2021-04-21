@@ -17,7 +17,7 @@ TMP_DOWNLOAD_DIRECTORY = "./"
 BOTLOG = False
 
 
-@register(events.NewMessage(pattern="/telegraph (media|text) ?(.*)"))
+@register(pattern="/telegraph (media|text) ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
