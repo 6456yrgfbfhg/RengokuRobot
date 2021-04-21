@@ -5,7 +5,7 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
-from YoneRobot import tbot as borg
+from YoneRobot.modules.help_funcs import telethn as tbot
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="DaisyX")
@@ -27,7 +27,7 @@ async def _(event):
         r_message = await event.get_reply_message()
         input_str = event.pattern_match.group(1)
         if input_str == "media":
-            downloaded_file_name = await borg.download_media(
+            downloaded_file_name = await tbot.download_media(
                 r_message, TMP_DOWNLOAD_DIRECTORY
             )
             end = datetime.now()
@@ -54,7 +54,7 @@ async def _(event):
                     link_preview=True,
                 )
         elif input_str == "text":
-            user_object = await borg.get_entity(r_message.sender_id)
+            user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name  # + " " + user_object.last_name
             # apparently, all Users do not have last_name field
             if optional_title:
@@ -63,7 +63,7 @@ async def _(event):
             if r_message.media:
                 if page_content != "":
                     title_of_page = page_content
-                downloaded_file_name = await borg.download_media(
+                downloaded_file_name = await tbot.download_media(
                     r_message, TMP_DOWNLOAD_DIRECTORY
                 )
                 m_list = None
