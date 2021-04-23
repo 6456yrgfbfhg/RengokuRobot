@@ -45,4 +45,4 @@ Help for Music Player module:
 
 """
 
-_mod_name_ = "Music player"
+__mod_name__ = "Music player"
