@@ -14,7 +14,7 @@
   <img src="https://telegra.ph/file/8a7e1a28dd6fac2d72c95.jpg">
 </p>
 
-# Giyuu Tomioka
+# Rengoku
 Me On Telegram [✨ Rengoku✨](https://t.me/RengokuRobot)
 
 ## How To Host
