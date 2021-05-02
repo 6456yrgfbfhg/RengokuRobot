@@ -287,16 +287,16 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'Hashira'."
+        text += "\n\nThis person is my owner I won't do anything against him'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Tsugoku'."
+        text += "\n\nThis user is one of my Dev users I won't do anything against him'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\nThis user is one of my sudo users! Means he can't be banned,muted etc..'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\nThis user is one of my support users he has acces to gbans
         disaster_level_present = True
     elif user.id in TIGERS:
         text += "\n\nThe Disaster level of this person is 'Tiger'."
@@ -304,11 +304,6 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Wolf'."
         disaster_level_present = True
-
-    if disaster_level_present:
-        text += ' [<a href="https://t.me/RenGokuUpdates/35">?</a>]'.format(
-            bot.username
-        )
 
     try:
         user_member = chat.get_member(user.id)
