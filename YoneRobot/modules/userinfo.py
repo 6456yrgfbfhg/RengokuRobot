@@ -296,7 +296,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThis user is one of my sudo users! Means he can't be banned,muted etc..'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThis user is one of my support users he has acces to gbans
+        text += "\n\nThis user is one of my support users he has acces to gbans"
         disaster_level_present = True
     elif user.id in TIGERS:
         text += "\n\nThe Disaster level of this person is 'Tiger'."
