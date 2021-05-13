@@ -77,7 +77,7 @@
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "IBM_WATSON_CRED_URL": {
