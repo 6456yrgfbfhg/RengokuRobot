@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🙋‍♀️](https://telegra.ph/file/f1bf53a50ad9fc4039342.jpg) `My name is` *Rengoku*
+`Hello` [🙋‍♀️](https://telegra.ph/file/048d36ca65f3c6eacbc59.jpg) `My name is` *Nobara*
 `I'm here to help you Save your groups from demons with my flame sword Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Summon Rengoku TO YOUR GROUP ➕️", url="t.me/Rengokurobot?startgroup=true"),
+            text="➕️ Summon Nobara TO YOUR GROUP ➕️", url="t.me/NobarasanRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text=" 🔰ABOUT", callback_data="yone_"),
@@ -89,16 +89,16 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="⚜️ OWNER", url="https://t.me/nk_guy"),
+            text="⚜️ OWNER", url="https://t.me/xtheanonymous"),
         InlineKeyboardButton(
-            text="☗Support", url="https://t.me/Rengokusupport"
+            text="☗Support", url="https://t.me/sorarobotbot"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [🙋‍♀️](https://telegra.ph/file/f1bf53a50ad9fc4039342.jpg)
+`Hi.. I'm` [🙋‍♀️](https://telegra.ph/file/3a141ef416bfb08982c97.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
